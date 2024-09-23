@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url(img/rua\ terra.jpg) ; 
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: #fff;
+}
+
+.alerta {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+    0% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin: 20px 0 10px;
+}
+
+button {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
